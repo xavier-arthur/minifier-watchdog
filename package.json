@@ -1,0 +1,23 @@
+{
+  "name": "minifier-watchdog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "test",
+    "start": "tsc && node build/main.js"
+  },
+  "author": "Arthur Xavier",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "argparse": "^2.0.1",
+    "node-watch": "^0.7.3",
+    "terser": "^5.12.1",
+    "typescript": "^4.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "@types/argparse": "^2.0.10",
+    "@types/glob": "^7.2.0"
+  }
+}
