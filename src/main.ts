@@ -6,8 +6,8 @@ let args: any;
 
 function getArgs() {
     parser.add_argument('path');
-    parser.add_argument('-n', '--now', { const: true, nargs: '?', help: 'run the minifier before start watching the files' });
-    parser.add_argument('-r', '--recursive', { default: true, const: true, nargs: '?', help: 'search recursively in all subdirectories'});
+    parser.add_argument('-n', '--now', { action: 'store_true', help: 'run the minifier before start watching the files' });
+    parser.add_argument('-r', '--recursive', { action: 'store_true', help: 'search recursively in all subdirectories'});
     args = parser.parse_args();
 }
 
