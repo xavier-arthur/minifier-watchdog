@@ -1,6 +1,6 @@
 {
   "name": "minifier-watchdog",
-  "version": "1.0.0",
+  "version": "v0.1-pre-release",
   "description": "",
   "main": "main.js",
   "scripts": {
